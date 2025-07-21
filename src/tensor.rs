@@ -8,6 +8,7 @@ use std::io::{Read, Seek};
 
 /// Quantization types supported by GGUF
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
+#[allow(non_camel_case_types)]
 #[repr(u32)]
 pub enum QuantizationType {
     F32 = 0,
