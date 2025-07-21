@@ -1,14 +1,13 @@
 [package]
 name = "aiogguf"
 version = "0.1.0"
+authors = ["Dex"]
 edition = "2024"
 description = "Pure Rust GGUF format parser library for AIOxide"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
 thiserror = "2.0"
 
 [dev-dependencies]
-tokio = { version = "1.0", features = ["full"] }
