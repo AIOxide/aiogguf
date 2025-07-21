@@ -4,7 +4,6 @@
 
 use crate::error::{GgufError, Result};
 use serde::{Deserialize, Serialize};
-use std::collections::HashMap;
 use std::io::{Read, Seek};
 
 /// GGUF value type enumeration
@@ -168,7 +167,7 @@ impl GgufValue {
             _ => Err(GgufError::InvalidMetadataValueType {
                 key: "unknown".to_string(),
                 expected: "u32".to_string(),
-                found: format!("{:?}", self),
+                found: format!("{self:?}"),
             }),
         }
     }
@@ -180,7 +179,7 @@ impl GgufValue {
             _ => Err(GgufError::InvalidMetadataValueType {
                 key: "unknown".to_string(),
                 expected: "u64".to_string(),
-                found: format!("{:?}", self),
+                found: format!("{self:?}"),
             }),
         }
     }
@@ -191,7 +190,7 @@ impl GgufValue {
             _ => Err(GgufError::InvalidMetadataValueType {
                 key: "unknown".to_string(),
                 expected: "string".to_string(),
-                found: format!("{:?}", self),
+                found: format!("{self:?}"),
             }),
         }
     }
@@ -202,7 +201,7 @@ impl GgufValue {
             _ => Err(GgufError::InvalidMetadataValueType {
                 key: "unknown".to_string(),
                 expected: "f32".to_string(),
-                found: format!("{:?}", self),
+                found: format!("{self:?}"),
             }),
         }
     }

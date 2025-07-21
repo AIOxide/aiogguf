@@ -20,7 +20,6 @@ pub use metadata::{GgufMetadata, ModelConfig};
 pub use tensor::{TensorInfo, QuantizationType};
 pub use types::{GgufValue, GgufValueType};
 
-use std::collections::HashMap;
 use std::fs::File;
 use std::io::{BufReader, Read, Seek};
 use std::path::Path;
