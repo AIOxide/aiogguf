@@ -1,3 +1,5 @@
+[![CI](https://github.com/AIOxide/aiogguf/actions/workflows/rust.yml/badge.svg)](https://github.com/AIOxide/aiogguf/actions/workflows/rust.yml)
+
 # aiogguf
 
 GGUF (Generic Graph Universal Format) parser for AI model metadata extraction.
