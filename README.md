@@ -1,4 +1,4 @@
-[![CI](https://github.com/AIOxide/aiogguf/actions/workflows/rust.yml/badge.svg)](https://github.com/AIOxide/aiogguf/actions/workflows/rust.yml)
+[![RUST](https://github.com/AIOxide/aiogguf/actions/workflows/rust.yml/badge.svg)](https://github.com/AIOxide/aiogguf/actions/workflows/rust.yml)
 
 # aiogguf
 
